@@ -7,14 +7,6 @@
 ?>
 
 <?php
-$R = "Ryan, ";
-$S = "un saiyan,  ";
-$B = "un crack du code! ";
-    $phrase = $R.$S.$B;
-        echo "Le meilleur est $phrase Et un futur Ironman!<br>";
-?>
-
-<?php
 $val = 6;
     echo $val."<br>";
     echo $val+4;
