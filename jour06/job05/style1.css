@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+form{
+    border-style: solid;
+    border-color: blue;
+    color: black;
+    background-color: white;
+    width: fit-content;
+    font-size: larger;
+    margin: 15px;
+    padding: 10px;
+}
+
+.style01{
+    background-color: aqua;
+    font-size: large;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+}
+
+
