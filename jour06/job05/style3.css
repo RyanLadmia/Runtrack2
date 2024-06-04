@@ -1,0 +1,25 @@
+body{
+    background-color: purple;
+}
+
+form{
+    border-style: solid;
+    border-color: green;
+    border-radius: 50%;
+    color: yellow;
+    background-color: gray;
+    width: fit-content;
+    font-size: larger;
+    margin: 15px;
+    padding: 10px;
+}
+
+.style01{
+    background-color: purple;
+    font-size: large;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+}
