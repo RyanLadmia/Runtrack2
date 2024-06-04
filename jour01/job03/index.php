@@ -8,30 +8,30 @@
 </head>
 
 <body>
-    <p>Teste 1er tableau uniquement php</p>
-    <?php
-    $NbrCol = 9;
-    $NbrLigne = 9;
-    echo '<table>';
-    for ($i=1; $i<=$NbrLigne; $i++) {
-        echo '<tr>';
-        for ($j=1; $j<=$NbrCol; $j++) {
+    <p>Teste 1er tableau, uniquement php</p>
+        <?php
+            $NbrCol = 9;
+            $NbrLigne = 9;
+            echo '<table>';
+                for ($i=1; $i<=$NbrLigne; $i++) {
+            echo '<tr>';
+                for ($j=1; $j<=$NbrCol; $j++) {
             echo '<td>';
             echo 'ligne'. $i. 'colonne'. $j;
             echo '<td>';
-        }
-        echo '</tr>';       
-    }
-?>
+             }
+             echo '</tr>';       
+            }
+        ?>
 
 <!--Autre tableau-->
 
     <?php
-    $data = [
-        ['Nom' => 'Ryan', 'Age' => 27, 'Ville' => 'Marseille'],
-        ['Nom' => 'Jean', 'Age' => 34, 'Ville' => 'Paris'],
-        ['Nom'=> 'Adrien', 'Age' => 19, 'Ville' => 'Lyon'],
-    ];
+        $data = [
+            ['Nom' => 'Ryan', 'Age' => 27, 'Ville' => 'Marseille'],
+            ['Nom' => 'Jean', 'Age' => 34, 'Ville' => 'Paris'],
+            ['Nom'=> 'Adrien', 'Age' => 19, 'Ville' => 'Lyon'],
+         ];
     ?>
 
 
@@ -52,9 +52,7 @@
                     <td><?php echo htmlspecialchars($row['Ville']); ?></td>
                 </tr>
             <?php endforeach; ?>
-            </tbody>
+        </tbody>
     </table>
 </body>
 </html>
-
-
