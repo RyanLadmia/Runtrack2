@@ -1,0 +1,24 @@
+body{
+    background-color: blue;
+}
+
+form{
+    border-style: dashed;
+    border-color: red;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    font-size: larger;
+    margin: 15px;
+    padding: 10px;
+}
+
+.style01{
+    background-color: olive;
+    font-size: large;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+}
