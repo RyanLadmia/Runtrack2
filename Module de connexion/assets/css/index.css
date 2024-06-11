@@ -1,0 +1,132 @@
+/* Mobile first : Mobile S */
+
+body{
+    background-image: url(../../assets/medias/fond.jpg);
+    background-attachment: fixed;
+    background-size: 290%;
+    background-position: center;
+    margin: 0vw; 
+}
+
+/* Barre de navigation/Menu (Header): */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0 ,0%, 25%);
+    padding: 0vw;
+    margin: 0vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    display: block;
+    text-align: center;
+   
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+    float: left;
+    font-size: small;
+    margin: 0vw 2vw;
+}
+
+/* Page d'Accueil: */
+
+h1{
+    border-style: solid;
+    border-color: yellow;
+    background-color: navy;
+    color: white;
+    font-size: 8vw;
+    width: fit-content;
+    margin-left: 7vw;
+}
+
+
+
+/* Page Inscription : */
+
+.formulaire{
+    background-color: rgb(0, 119, 255);
+    color: black;
+    padding: 2vw;
+    margin-top: 5vw;
+    margin-left: 20vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+.bouton{ /* Et page connexion */
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 2vw;
+    margin: 20vw;
+    border: solid navy;
+    text-decoration: none;
+}
+
+.bouton:hover{ /* Et page connexion */
+    background-color: navy;
+    border: solid blue;
+}
+
+
+.echo{
+    color: red;
+    background-color: white;
+    border: solid, red;
+    width: fit-content;
+    margin: 2vw;
+    margin-left: 10vw;
+}
+
+.button{
+    margin-left: 35vw;
+}
+
+/* Page Inscription */
+.formulaire_profil{
+    background-color: rgb(0, 119, 255);
+    color: black;
+    padding: 2vw;
+    margin-top: 5vw;
+    margin-left: 13vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Page administrateur : */
+
+h2{
+    border: solid yellow;
+    color: white;
+    background-color: blue;
+    width: fit-content;
+}
+
+.table, th, td, tr{
+    background-color: white;
+    border-collapse: collapse;
+    font-size: larger;
+    text-align: center;
+    padding: 1vw;
+    margin: 1vw;
+}
+
+@media screen and (min-width: 330px){ /*Mobile M*/
+}
