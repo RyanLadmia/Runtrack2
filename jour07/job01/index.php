@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jour7 Job2</title>
+    <title>Jour7 Job1</title>
 </head>
 <body>
     <?php
