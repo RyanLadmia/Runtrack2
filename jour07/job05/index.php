@@ -1,26 +1,26 @@
 <?php
 // Avec strlen :
     /*function occurrences($str, $char){
-        $count=0;
+        $counter=0;
         for($i=0; $i<strlen($str); $i++){
             if($str[$i]==$char){
-                $count++;
+                $counter++;
             }
         }
-        return $count;
+        return $counter;
     } */
 
     //Sans strlen :
     function occurrences($str, $char){
-        $count=0;
+        $counter=0;
         $i=0;
         while(isset($str[$i])){
             if($str[$i]==$char){
-                $char++;
+                $counter++;
             }
             $i++;
         }
-        return $count;
+        return $counter;
     }
     ?>
     
@@ -30,7 +30,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jour 7 Job 5</title>
 </head>
 <body>
     <?php
