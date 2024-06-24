@@ -97,7 +97,8 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modifier le profil</title>
-    <link rel="stylesheet" href='../../assets/css/index.css'>
+    <link rel="stylesheet" href='../../assets/css/livre_or.css'>
+    <link rel="icon" type="image/x-icon" href='../../assets/medias/livre_or_favicon.jpg'>
 </head>
 <body>
     <!-- Header -->
@@ -124,7 +125,7 @@ $conn->close();
             <input type="submit" value="Mettre à jour">
         </form>
         <br><br>
-        <a class="bouton" href="deconnexion.php">Déconnexion</a>
+        <a class="bouton_profil" href="deconnexion.php">Déconnexion</a>
     </main>
 </body>
 </html>
