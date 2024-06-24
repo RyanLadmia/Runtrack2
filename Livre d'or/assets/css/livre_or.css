@@ -1,0 +1,195 @@
+/* Header : navbar : */
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0 ,0%, 25%);
+    padding: 2vw;
+    margin: 0vw;
+    overflow: hidden;
+    width: 96%;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 2vw;
+    margin-left: 2vw;
+    display: inline;
+   
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+    float: left;
+    font-size: large;
+    margin: 0vw 2vw;
+    
+}
+
+    /* index.php */
+body{
+    background-image: url('../../assets/medias/livre_or.jpg');
+    background-size: 90%;
+    background-position-y: -5vw;
+    background-position-x: 5vw;
+    background-attachment: fixed;
+    padding: 0vw;
+    margin: 0vw;
+}
+
+.bienvenue{
+    color: gold;
+    background-color: navy;
+    border: solid gold;
+    border-radius: 5%;
+    text-align: center;
+    padding: 1vw;
+    margin: 1vw;
+    
+}
+
+.bouton_index{
+    font-size: medium;
+    position: relative;
+    top: 26vw;
+    background-color: blue;
+    padding: 1vw;
+    border: solid navy;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+.bouton_index:hover{
+    background-color: navy;
+    border-color: blue;
+}
+
+/* Page Inscription : */
+.formulaire_inscription{
+    background-color: aqua;
+    width: fit-content;
+    padding: 2vw;
+    margin: 3vw;
+}
+
+/* Page Connexion : */
+.formulaire_connexion{
+    background-color: orange;
+    width: fit-content;
+    padding: 2vw;
+    margin: 3vw;
+}
+
+.bouton_connexion{
+    font-size: medium;
+    position: relative;
+    top: 9vw;
+    background-color: blue;
+    padding: 1vw;
+    border: solid navy;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+.bouton_connexion:hover{
+    background-color: navy;
+    border-color: blue;
+}
+
+
+
+/* Page Profil : */
+.formulaire_profil{
+    background-color: green;
+    width: fit-content;
+    padding: 2vw;
+    margin: 3vw;
+}
+
+.bouton_profil{
+    font-size: medium;
+    position: relative;
+    top: 5vw;
+    background-color: blue;
+    padding: 1vw;
+    border: solid navy;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+.bouton_profil:hover{
+    background-color: navy;
+    border-color: blue;
+}
+
+/* Page Livre d'or : */
+.h2_livre-or{
+    color: red;
+    background-color: white;
+    margin-left: 5vw;
+    border: solid red;
+    width: fit-content;
+}
+
+.comment{
+    background-color: white;
+    border: solid gold;
+    padding: 1vw;
+    margin: 1vw;
+    width: fit-content;
+}
+
+.ajout{
+    text-decoration: none;
+    border: solid, black;
+    color: black;
+    font-size: large;
+    background-color: white;
+    margin: 3vw;
+    padding: 1vw;
+}
+
+.bouton_livre-or{
+    font-size: medium;
+    position: relative;
+    top: 3.5vw;
+    background-color: blue;
+    padding: 1vw;
+    border: solid navy;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+.bouton_livre-or:hover{
+    background-color: navy;
+    border-color: blue;
+}
+
+/* Page Commentaires : */
+.formulaire_commentaire{
+    background-color: grey;
+    width: fit-content;
+    padding: 2vw;
+    margin: 3vw;
+}
+
+.bouton_commentaire{
+    font-size: medium;
+    position: relative;
+    top: 14vw;
+    background-color: blue;
+    padding: 1vw;
+    border: solid navy;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+.bouton_commentaire:hover{
+    background-color: navy;
+    border-color: blue;
+}
+
