@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire Password</title>
+    <title>Jour 4&5 job 5</title>
 </head>
 <body>
     <br><br>
@@ -22,7 +22,7 @@
         $password = isset($_POST['password']) ? $_POST['password'] : '';
 
         if ($username === "John" && $password === "Rambo") {
-            echo "<p>C’est pas ma guerre</p>";
+            echo "<p>C'est pas ma guerre</p>";
         } else {
             echo "<p>Votre pire cauchemar</p>";
         }
