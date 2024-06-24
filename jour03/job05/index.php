@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tableau voyelles/consonnes</title>
+    <title>Jour 3 Job 5</title>
 </head>
 <body>
 <?php
     // Variable:
-    $str = "On n’est pas le meilleur quand on le croit mais quand on le sait";
+    $str = "On n'est pas le meilleur quand on le croit mais quand on le sait";
 
     // Dictionnaire
     $dic = [
@@ -44,17 +44,17 @@
     }
     ?>
 
-    <table>
+    <table border=1>
         <thead>
             <tr>
-                <th>Voyelles</th>
                 <th>Consonnes</th>
+                <th>Voyelles</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><?php echo $dic["voyelles"];?></td>
                 <td><?php echo $dic["consonnes"];?></td>
+                <td><?php echo $dic["voyelles"];?></td>
             </tr>
         </tbody>
     </table>
