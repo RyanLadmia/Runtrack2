@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire avec styles</title>
+    <title>Jour 6 Job 5</title>
     <?php
         if (isset($_POST['style'])) {
             $selectstyle = $_POST['style'];
