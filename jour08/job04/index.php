@@ -1,36 +1,42 @@
 <?php
-    // Intro Cookie :
-    // Durée de vie du cookie : 1 heure (3600 secondes)
-    $cookie_duration = 36000;
+// Définir les actions de connexion et de déconnexion
+if (isset($_POST['connexion']) && isset($_POST['prenom'])) {
+    // Si le formulaire est soumis avec un prénom, définir le cookie
+    setcookie('prenom', $_POST['prenom'], time() + 3600); // Cookie valide pendant 1 heure
+    $_COOKIE['prenom'] = $_POST['prenom'];
+}
 
-
-    // Recuperation des champs du formulaire :
-
-
-    // Ajouter Prenom dans cookie :
-
-    
-    // Affichage du message de bienvenue + form deconnexion :
-
-
-    // Deconnexion :
-
-
+if (isset($_POST['deco'])) {
+    // Si l'utilisateur clique sur déconnexion, effacer le cookie
+    setcookie('prenom', '', time() - 3600); // Expirer le cookie
+    unset($_COOKIE['prenom']);
+}
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jour 8; Job 4</title>
+    <title>Jour 8 Job 04</title>
 </head>
+
 <body>
-    <form>
-        <label type="text" name="prenom">Prenom</label>
-        <input type="text" name="prenom" id="prenom">
-        <input type="submit" name="Connexion" value="Connexion">
-    </form>
-    
+    <?php
+    if (isset($_COOKIE['prenom'])) {
+        // Si le cookie existe, afficher le message de bienvenue et le bouton de déconnexion
+        echo "Bonjour " . htmlspecialchars($_COOKIE['prenom']) . " !";
+        echo '<form method="post" action=""><br>
+                <button type="submit" name="deco">Déconnexion</button>
+              </form>';
+    } else {
+        // Si le cookie n'existe pas, afficher le formulaire de connexion
+        echo '<form method="post" action="">
+                <label for="prenom">Prénom:</label><br>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+                <button type="submit" name="connexion">Connexion</button>
+              </form>';
+    }
+    ?>
 </body>
 </html>
