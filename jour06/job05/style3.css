@@ -12,6 +12,7 @@ form{
     font-size: larger;
     margin: 15px;
     padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .style01{
@@ -19,7 +20,3 @@ form{
     font-size: large;
 }
 
-.select{
-    display: flex;
-    justify-content: center;
-}
