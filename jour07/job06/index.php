@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeetSpeak</title>
-</head>
-<body>
-    <?php
+<?php
     function leetSpeak($str) {
         // Tableau de correspondance pour les caractères leet speak
         $leet = [
@@ -45,5 +37,15 @@
     echo "Original: $str<br>";
     echo "Leet Speak: " . leetSpeak($str) . "<br>";
     ?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jour 7 Job 6</title>
+</head>
+<body>
+    
 </body>
 </html>
