@@ -52,14 +52,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
-    <!-- Lien CSS -->
+    <link rel="stylesheet" href='../../assets/css/livre_or.css'>
+    <link rel="icon" type="image/x-icon" href='../../assets/medias/livre_or_favicon.jpg'>
 </head>
 <body>
     <!-- Header -->
     <?php include '../../includes/header.php'; ?>
 
     <main>
-        <form class="formulaire" action="connexion.php" method="post">
+        <form class="formulaire_connexion" action="connexion.php" method="post">
             <caption><u>Formulaire de connexion :</u></caption><br><br>
             <label for="login">Nom d'utilisateur :</label><br>
             <input type="text" id="login" name="login" autocomplete="off" required><br><br>
@@ -71,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <?php if (isset($error)): ?>
             <p class="echo"><?php echo htmlspecialchars($error); ?></p>
         <?php endif; ?>
-        <a class="bouton" href="deconnexion.php">Déconnexion</a>
+        <a class="bouton_connexion" href="deconnexion.php">Déconnexion</a>
     </main>
 </body>
 </html>
