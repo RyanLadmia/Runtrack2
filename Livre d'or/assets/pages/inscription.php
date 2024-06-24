@@ -60,14 +60,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'incription</title>
-    <!-- Lien CSS -->
+    <link rel="stylesheet" href='../../assets/css/livre_or.css'>
+    <link rel="icon" type="image/x-icon" href='../../assets/medias/livre_or_favicon.jpg'>
+    
 </head>
 
 <body>
     <!-- Header -->
     <?php include'../../includes/header.php'?>
     <main>
-        <form class="formulaire" method="post" action="inscription.php">
+        <form class="formulaire_inscription" method="post" action="inscription.php">
             <caption><u>Formulaire d'inscription :</u></caption><br><br>
             <label for="login">Nom d'utilisateur :</label><br>
             <input type="text" id="login" name="login" value="" autocomplete="off" required><br><br>
