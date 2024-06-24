@@ -34,7 +34,7 @@
 <body>
 
     <?php
-        echo calcule(8, 2, '/');
+        echo calcule(5, 2, '-');
     ?>
     
 </body>
