@@ -1,42 +1,35 @@
+<?php
+    if ($_SERVER["REQUEST_METHOD"] == "GET" && !empty($_GET)) {
+        echo "<table border='1'>";
+        echo "<tr><th>Argument</th><th>Valeur</th></tr>";
+
+        foreach ($_GET as $key => $value) {
+            if (isset($_GET[$key]) && $_GET[$key] !== '') {
+                echo "<tr><td>" . htmlspecialchars($key) . "</td><td>" . htmlspecialchars($value) . "</td></tr>";
+            }
+        }
+
+        echo "</table>";
+    }
+    ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tableau GET</title>
+    <title>Jour 4&5 job 2</title>
 </head>
-
 <body>
-    <form action="index.php" method="GET">
-        <label for="firstname">Prénom</label>
-        <input type="text" name="firstname" id="firstname">
-        <label for="lastnale">Nom</label>
-        <input type="text" name="lastname" id="lastname">
-        <input type="submit" value="Envoyer">
-    </form>
     <br><br>
+    <form method="GET" action="index.php">
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom"><br><br>
 
-    <?php
-        if(!empty($_GET)){
-            echo "<table>";
-            echo "<thead>";
-            echo "<tr><th>Arguments</th><th>Valeurs</th>";
-            echo "</thead>";
-            echo "<tbody>";
-        }
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom"><br><br>
 
-      foreach($_GET as $key => $value){
-        echo "<tr>";
-        echo "<td>".htmlspecialchars($key)."</td>";
-        echo "<td>".htmlspecialchars($value)."</td>";
-        echo "</tr>";
-    }
-    ?>
-    <style>
-        table, tr, th, td{
-            border: solid black;
-            
-        }
-    
+        <input type="submit" value="Envoyer">
+    </form><br><br>
 </body>
 </html>
