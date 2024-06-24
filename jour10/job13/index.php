@@ -1,4 +1,4 @@
-<?php
+ <?php
     $mysqli = mysqli_connect("localhost", "root", "", "jour09");
     $myresult = mysqli_query($mysqli, "SELECT salles.id AS salles_id, salles.nom AS salles_nom, salles.id_etage, salles.capacite, etage.id AS etage_id, etage.nom AS etage_nom, etage.numero, etage.superficie FROM salles INNER JOIN etage ON salles.id_etage = etage.id;");
     $row = ($myresult);
