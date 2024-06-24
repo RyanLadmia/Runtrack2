@@ -25,7 +25,7 @@
 </head>
 <body>
     <form method="post" action="index.php">
-        <label type="text">Text : </label>
+        <label type="text">Texte : </label>
         <input type="text" name="prenom" id="prenom">
         <br><br>
         <input type="submit" name="Envoyer" value="Envoyer">
