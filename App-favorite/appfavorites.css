@@ -1,0 +1,112 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(mosaic.jpg);
+    background-size: 120%;
+    background-position-x: -20vw;
+    background-attachment: fixed;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: blue;
+    border: solid yellow;
+    border-radius: 25px;
+}
+
+li{
+    float:inline-start;
+    padding: 5px;
+}
+
+li a{
+    display: block;
+    padding: 25px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    
+}
+
+li a:hover{
+    background-color: navy;
+}
+
+.logo{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50px;
+    margin-left: 25px;
+
+}
+
+.logo2{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50px;
+    margin-left: 60px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+.p1{
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+} 
+
+
+.youtube{
+    width: 30vw;
+    height: 30vw;
+    object-fit: contain;
+}
+
+.whatsapp{
+    width: 30vw;
+    height: 30vw;
+    object-fit: contain;
+}
+
+.x{
+    width: 30vw;
+    height: 30vw;
+    object-fit: contain;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+}
+.container section {
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+}
+.container img {
+    width: 100px;
+    height: 100px;
+}
+.container p{
+    background-color: white;
+    opacity: 0.6;
+    height: 175px;
+    width: 350px;
+    padding: 15px;
+}
+

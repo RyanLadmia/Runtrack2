@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(youtubefond.jpg);
+    background-size: 90%;
+    background-position-x: 0vw;
+    background-attachment: fixed;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: red;
+    border: solid white;
+    border-radius: 25px;
+}
+
+li{
+    float:inline-start;
+    padding: 5px;
+}
+
+li a{
+    display: block;
+    padding: 25px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    
+}
+
+li a:hover{
+    background-color:darkred;
+}
+
+.logo{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50px;
+    margin-left: 25px;
+
+}
+
+.logo2{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50px;
+    margin-left: 60px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+.p{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.youtube{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+.descrip{
+    color: red;
+    overflow: auto;
+    font-size: larger;
+    background-color: white;
+    opacity: 0.6;
+    margin: 30px;
+
+}
+.tele{
+    color: red;
+    border: solid red;
+    width: fit-content;
+    font-size: large;
+    margin-left: 30px;
+    padding: 10px;
+}
+.google{
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 200px;
+}
+.apple{
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 350px;
+}
