@@ -31,7 +31,7 @@
             $commentaire = trim($_POST['commentaire']);
             $userid = $_SESSION['userid'];
 
-        // Requête SQL : Insérer les informations de la base de donnée :
+        // Requête SQL : Insérer les informations dans la base de donnée :
             $sql = "INSERT INTO commentaires (commentaire, date, id_utilisateur) VALUES (?, NOW(), ?)";
             $stmt = $conn->prepare($sql);
             $stmt->bind_param("si", $commentaire, $userid);
