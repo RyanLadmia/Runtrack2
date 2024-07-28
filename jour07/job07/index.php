@@ -115,15 +115,15 @@ function plateforme($str) {
 ?>
 <body>
     <form method="post">
-        <label for="fname">Input text:</label><br>
+        <label for="fname">Entrer votre texte :</label><br>
         <input type="text" id="fname" name="fname"><br><br>
         <select name="fonction">
-            <option value="0"> Selectionnes une fonction </option>
+            <option value="0"> Selectionner une fonction </option>
             <option value="1">Gras</option>
             <option value="2">Cesar Text</option>
             <option value="3">Plateforme</option>
         </select>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Valider">
     </form><br>
     <?php 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
